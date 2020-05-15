@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'airbnb',
   ],
   globals: {
@@ -20,8 +21,14 @@ module.exports = {
   },
   plugins: [
     'react',
+    'react-hooks',
   ],
   rules: {
-    'react/require-default-props': ['error', { ignoreFunctionalComponents: true }]
+    'react/require-default-props': ['error',
+      {
+        ignoreFunctionalComponents: true
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
   },
 };

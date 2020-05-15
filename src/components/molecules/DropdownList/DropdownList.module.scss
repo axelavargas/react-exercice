@@ -1,0 +1,32 @@
+.element-dropdown {
+    cursor: pointer;
+    display: flex;
+    outline: 0;
+    box-sizing: border-box;
+    min-height: 48px;
+    align-items: center;
+    padding: 6px 16px;
+    justify-content: flex-start;
+
+    &:hover {
+        background-color: #ccc;
+    }
+}
+.container-dropdown {
+    margin: 0;
+    padding: 8px 0px;
+    overflow: auto;
+    list-style: none;
+    max-height: 40vh;
+    border: 1px solid #ccc;
+    width: max-content;
+}
+
+.wrapper-contatiner{
+    margin: 4px 0;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    border-radius: 4px;
+}
